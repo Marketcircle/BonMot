@@ -6,9 +6,9 @@ import PackageDescription
 let package = Package(
     name: "BonMot",
     platforms: [
-        .iOS(.v10),
+        .iOS(.v11),
         .macOS(.v10_11),
-        .tvOS(.v10),
+        .tvOS(.v11),
         .watchOS(.v2),
     ],
     products: [
